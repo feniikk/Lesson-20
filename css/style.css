@@ -1,0 +1,38 @@
+.firstSection{
+	height: 100vh;
+	background-image: url(../img/bg-masthead.jpg);
+    
+}
+
+body{
+	margin:0;
+}
+
+.firstSection .textCenterWrapp h1{
+	margin:0;
+}
+
+
+.firstSection .textCenterWrapp{
+	text-align: center;	
+	top:50%;
+	position: relative;
+	transform: translateY(-50% 	);
+}
+
+
+.firstSection .textCenterWrapp .baton{
+	height: 66px;
+	width:181px;
+	background-color: #1d809f;
+	color: white;
+	margin-top: 50px;
+	font-weight: 400;
+	border-radius: 5px;
+}
+
+.firstSection .textCenterWrapp .baton:hover{
+	background-color: #155d74;
+	transition: background-color 0.5s, font-weight 1s;
+	font-weight:600;
+}
